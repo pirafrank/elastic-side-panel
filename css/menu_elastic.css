@@ -12,12 +12,15 @@ body,
 }
 
 .menu-wrap a {
-	color: #ffffff;
+	color: #16C9C7; /* side panel links color */
+	text-decoration: none; /* needed, otherwise side panel items will be underlined */
+	outline: none;
 }
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-	color: #c94e50;
+	color: #ffffff; /* side panel links focus color */
+	outline: none;
 }
 
 .content-wrap {
@@ -146,7 +149,7 @@ body,
 	opacity: 0.5;
 }
 
-.icon-list a span { /* customize side panel text */
+.icon-list a span { 								/* customize side panel text */
 	margin-left: 20px;
 	/*text-transform: uppercase;*/
 	font-weight: 400;
