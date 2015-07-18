@@ -53,7 +53,7 @@ body, /* font-family is taken from body in main main.css. For more text customis
 
 /* Menu Button */
 .menu-button {
-	position: fixed;
+	position: fixed; /* sticks the button to the top */
 	z-index: 1000;
 	margin: 1em;
 	padding: 0;
@@ -62,8 +62,8 @@ body, /* font-family is taken from body in main main.css. For more text customis
 	border: none;
 	text-indent: 2.5em;
 	font-size: 1.5em;
-	color: transparent;
-	background: transparent;
+	color: transparent; /* if you change this, an ugly text will appear */
+	background: transparent; /* side-panel button backgroud color */
 }
 
 .menu-button::before {
@@ -72,12 +72,13 @@ body, /* font-family is taken from body in main main.css. For more text customis
 	right: 0.5em;
 	bottom: 0.5em;
 	left: 0.5em;
-	background: linear-gradient(#404040 20%, transparent 20%, transparent 40%, #404040 40%, #404040 60%, transparent 60%, transparent 80%, #404040 80%);
+	/* to change side-panel button, edit just the hex values in linear-gradient below. do not change transparent otherwise a dog will bite you. */
+	background: linear-gradient(#43a 20%, transparent 20%, transparent 40%, #43a 40%, #43a 60%, transparent 60%, transparent 80%, #43a 80%);
 	content: '';
 }
 
-.menu-button:hover {
-	opacity: 0.6;
+.menu-button:hover { 
+	opacity: 0.6; /* opacity on hover for side-panel menu */
 }
 
 /* Close Button */
