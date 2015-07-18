@@ -1,5 +1,5 @@
 html, 
-body, 
+body, /* font-family is taken from body in main main.css. For more text customisation look at .icon-list class */
 .container, 
 .content-wrap {
 	overflow: hidden;
