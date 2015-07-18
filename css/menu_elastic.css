@@ -12,7 +12,7 @@ body,
 }
 
 .menu-wrap a {
-	color: #b8b7ad;
+	color: #ffffff;
 }
 
 .menu-wrap a:hover,
@@ -100,7 +100,7 @@ body,
 	height: 100%;
 	top: 0;
 	left: 50%;
-	background: #95a5a6;
+	background: #c8c8c8; /* color of close button (X) in panel */
 }
 
 .close-button::before {
@@ -127,7 +127,7 @@ body,
 }
 
 .menu {
-	background: #373a47;
+	background: #43a; /* panel background color (it has to match 'fill' in morph-shape class) */
 	width: calc(100% - 120px);
 	height: 100%;
 	padding: 2em 1em;
@@ -146,12 +146,12 @@ body,
 	opacity: 0.5;
 }
 
-.icon-list a span {
-	margin-left: 10px;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 1px;
-	font-size: 0.75em;
+.icon-list a span { /* customize side panel text */
+	margin-left: 20px;
+	/*text-transform: uppercase;*/
+	font-weight: 400;
+	/*letter-spacing: 1px;*/
+	font-size: 1em;
 }
 
 /* Morph Shape */
@@ -161,7 +161,7 @@ body,
 	height: 100%;
 	top: 0;
 	right: 0;
-	fill: #373a47;
+	fill: #43a; /* this has to match the panel background color */
 	z-index: 1000;
 }
 
