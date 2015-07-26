@@ -9,7 +9,7 @@ This repo is based on [this article](http://tympanus.net/codrops/2014/09/16/off-
 
 #### How to use it
 
-Look at elastic.html to get include lines and html code.
+Get the [latest version](https://github.com/pirafrank/elastic-side-panel/archive/master.zip), unzip and enjoy!
 
 ---
 
