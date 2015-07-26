@@ -20,6 +20,7 @@ body, /* font-family is taken from body in main main.css. For more text customis
 .menu-wrap a:hover,
 .menu-wrap a:focus {
 	color: #ffffff; /* side panel links focus color */
+	background: #16C9C7; 
 	outline: none;
 }
 
@@ -166,7 +167,7 @@ body, /* font-family is taken from body in main main.css. For more text customis
 	top: 0;
 	right: 0;
 	fill: #43a; /* this has to match the panel background color */
-	z-index: 1000;
+	z-index: -10;
 }
 
 /* Shown menu */
